@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5D10811C803F9600618A96 /* BFH-Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D10801C803F9600618A96 /* BFH-Data.swift */; };
 		5E73A2F71C7F5377004CC36C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A2F61C7F5377004CC36C /* AppDelegate.swift */; };
-		5E73A2F91C7F5377004CC36C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A2F81C7F5377004CC36C /* FirstViewController.swift */; };
-		5E73A2FB1C7F5377004CC36C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A2FA1C7F5377004CC36C /* SecondViewController.swift */; };
 		5E73A2FE1C7F5377004CC36C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E73A2FC1C7F5377004CC36C /* Main.storyboard */; };
 		5E73A3001C7F5377004CC36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E73A2FF1C7F5377004CC36C /* Assets.xcassets */; };
 		5E73A3031C7F5377004CC36C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E73A3011C7F5377004CC36C /* LaunchScreen.storyboard */; };
 		5E73A30E1C7F5377004CC36C /* BFH_MyGradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A30D1C7F5377004CC36C /* BFH_MyGradesTests.swift */; };
+		5E73A31B1C7F557B004CC36C /* SemesterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A31A1C7F557B004CC36C /* SemesterTableViewController.swift */; };
+		5E73A31D1C7F57C5004CC36C /* SemesterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A31C1C7F57C5004CC36C /* SemesterTableViewCell.swift */; };
+		5E73A32F1C7F65D3004CC36C /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A32E1C7F65D3004CC36C /* CoursesViewController.swift */; };
+		5E73A3311C7F6845004CC36C /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A3301C7F6845004CC36C /* CoursesTableViewCell.swift */; };
+		5EA510961C86202100792AD5 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA510951C86202100792AD5 /* StatViewController.swift */; };
+		5EA99AB81C8879160014D4C0 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA99AB71C8879160014D4C0 /* CircleView.swift */; };
+		5EA99ABA1C889D180014D4C0 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA99AB91C889D180014D4C0 /* ProgressBarView.swift */; };
+		5EF70E721C837E6A002CFD9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF70E711C837E6A002CFD9A /* LoginViewController.swift */; };
+		5EF70E741C837EDE002CFD9A /* BFH-Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF70E731C837EDE002CFD9A /* BFH-Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5D10801C803F9600618A96 /* BFH-Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BFH-Data.swift"; sourceTree = "<group>"; };
 		5E73A2F31C7F5377004CC36C /* BFH MyGrades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BFH MyGrades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E73A2F61C7F5377004CC36C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E73A2F81C7F5377004CC36C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5E73A2FA1C7F5377004CC36C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5E73A2FD1C7F5377004CC36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E73A2FF1C7F5377004CC36C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E73A3021C7F5377004CC36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +45,15 @@
 		5E73A3091C7F5377004CC36C /* BFH MyGradesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BFH MyGradesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E73A30D1C7F5377004CC36C /* BFH_MyGradesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFH_MyGradesTests.swift; sourceTree = "<group>"; };
 		5E73A30F1C7F5377004CC36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E73A31A1C7F557B004CC36C /* SemesterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterTableViewController.swift; sourceTree = "<group>"; };
+		5E73A31C1C7F57C5004CC36C /* SemesterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterTableViewCell.swift; sourceTree = "<group>"; };
+		5E73A32E1C7F65D3004CC36C /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		5E73A3301C7F6845004CC36C /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		5EA510951C86202100792AD5 /* StatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
+		5EA99AB71C8879160014D4C0 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		5EA99AB91C889D180014D4C0 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		5EF70E711C837E6A002CFD9A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EF70E731C837EDE002CFD9A /* BFH-Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BFH-Login.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +96,20 @@
 			isa = PBXGroup;
 			children = (
 				5E73A2F61C7F5377004CC36C /* AppDelegate.swift */,
-				5E73A2F81C7F5377004CC36C /* FirstViewController.swift */,
-				5E73A2FA1C7F5377004CC36C /* SecondViewController.swift */,
 				5E73A2FC1C7F5377004CC36C /* Main.storyboard */,
+				5EA99AB91C889D180014D4C0 /* ProgressBarView.swift */,
+				5EA99AB71C8879160014D4C0 /* CircleView.swift */,
 				5E73A2FF1C7F5377004CC36C /* Assets.xcassets */,
 				5E73A3011C7F5377004CC36C /* LaunchScreen.storyboard */,
 				5E73A3041C7F5377004CC36C /* Info.plist */,
+				5E73A31A1C7F557B004CC36C /* SemesterTableViewController.swift */,
+				5E73A31C1C7F57C5004CC36C /* SemesterTableViewCell.swift */,
+				5E73A32E1C7F65D3004CC36C /* CoursesViewController.swift */,
+				5E73A3301C7F6845004CC36C /* CoursesTableViewCell.swift */,
+				5EF70E711C837E6A002CFD9A /* LoginViewController.swift */,
+				5EA510951C86202100792AD5 /* StatViewController.swift */,
+				5EF70E731C837EDE002CFD9A /* BFH-Login.swift */,
+				5E5D10801C803F9600618A96 /* BFH-Data.swift */,
 			);
 			path = "BFH MyGrades";
 			sourceTree = "<group>";
@@ -200,9 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E73A2FB1C7F5377004CC36C /* SecondViewController.swift in Sources */,
+				5EF70E741C837EDE002CFD9A /* BFH-Login.swift in Sources */,
+				5EA510961C86202100792AD5 /* StatViewController.swift in Sources */,
+				5EF70E721C837E6A002CFD9A /* LoginViewController.swift in Sources */,
+				5E73A3311C7F6845004CC36C /* CoursesTableViewCell.swift in Sources */,
 				5E73A2F71C7F5377004CC36C /* AppDelegate.swift in Sources */,
-				5E73A2F91C7F5377004CC36C /* FirstViewController.swift in Sources */,
+				5EA99ABA1C889D180014D4C0 /* ProgressBarView.swift in Sources */,
+				5E5D10811C803F9600618A96 /* BFH-Data.swift in Sources */,
+				5EA99AB81C8879160014D4C0 /* CircleView.swift in Sources */,
+				5E73A31B1C7F557B004CC36C /* SemesterTableViewController.swift in Sources */,
+				5E73A31D1C7F57C5004CC36C /* SemesterTableViewCell.swift in Sources */,
+				5E73A32F1C7F65D3004CC36C /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +422,7 @@
 				5E73A3141C7F5377004CC36C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E73A3151C7F5377004CC36C /* Build configuration list for PBXNativeTarget "BFH MyGradesTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +431,7 @@
 				5E73A3171C7F5377004CC36C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
