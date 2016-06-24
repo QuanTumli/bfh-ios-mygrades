@@ -284,12 +284,19 @@ class BFHData: NSObject, NSXMLParserDelegate {
         "BTX8202": (ects : 6, group : "C"),
         "BTX8101": (ects : 4, group : "C"),
         "BTX8102": (ects : 4, group : "C"),
+        "BTX8105": (ects : 4, group : "C"),
+        "BTX8108": (ects : 6, group : "C"),
+        "BZG3423": (ects : 2, group : "C"),
         
         "BTI7532": (ects : 2, group : "D"),
         "BTI7083": (ects : 4, group : "D"),
         "BZG3207": (ects : 2, group : "D"),
         "BZG3208": (ects : 2, group : "D"),
-        "BTI7528": (ects : 2, group : "D")
+        "BTI7528": (ects : 2, group : "D"),
+        "BTX8504": (ects : 2, group : "D"),
+        "BTI7529": (ects : 2, group : "D"),
+        "BTI7535": (ects : 2, group : "D"),
+        "BTI7538": (ects : 2, group : "D")
     ]
     
     class Course {
